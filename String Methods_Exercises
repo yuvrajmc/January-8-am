@@ -1,6 +1,20 @@
+====================================
+#Task 7- Say hello world with python
+====================================
+#Concatenation input
+a = "Hello"
+b = "World"
+print(a +" "+b)
+
+#Concatenation output
+
+Hello World
+
+
 ====================
-#Task 8- Swap case input
+#Task 8- swap case
 ===================
+#Swap case input
 a = "Hello World"
 
 print(a.swapcase())
@@ -9,9 +23,7 @@ print(a.capitalize())
 print(a.upper())
 print(a.lower())
 
-===================
-#Task 8- output
-===================
+#Swap case output
 
 hELLO wORLD
 Hello World
