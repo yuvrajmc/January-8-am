@@ -1,3 +1,31 @@
+===========================
+Task1:
+Get one string from user
+identify the middle character of the string
+===========================================
+a=(input("Enter a string: "))
+
+
+#Output
+
+===========================
+Task2: strip
+string1: ***python***
+string1: **python********
+string: ********java*******
+===========================================
+#input
+a = "***java***"
+
+print(a.strip("*"))
+print(a.lstrip("*"))
+print(a.rstrip("*"))
+
+#output
+
+java
+java***
+***java
 ====================================
 #Task 7- Say hello world with python
 ====================================
@@ -7,9 +35,7 @@ b = "World"
 print(a +" "+b)
 
 #Concatenation output
-
 Hello World
-
 
 ====================
 #Task 8- swap case
