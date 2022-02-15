@@ -1,16 +1,16 @@
-#Calculate perentage
+#Calculate percentage
 
-Physics_marks=int(input("Enter the marks scored in physics: ")
-Maths_marks=int(input("Enter the marks scored in maths: ")
-Chemistry_marks=int(input("Enter the marks scored in physics: ")
+Physics_marks=int(input("Enter the marks scored in physics: "))
+Maths_marks=int(input("Enter the marks scored in maths: "))
+Chemistry_marks=int(input("Enter the marks scored in physics: "))
 
-Paercentage = (Physics_marks+Maths_marks+Chemistry_marks)/100
+percentage = (Physics_marks+Maths_marks+Chemistry_marks)/100
 
-if Paercentage>90
+if percentage>90:
     print("Grade A")
-elif Paercentage>75
+elif percentage>75:
     print("Grade B")
-elif Paercentage>50
+elif percentage>50:
     print("Grade C")
-else 
-print("Grade D")    
+else:
+    print("Grade D")
